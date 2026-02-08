@@ -1,0 +1,18 @@
+{% extends 'pages/base.html' %}
+
+{% block title %}DATA{% endblock %}
+
+{% block content %}
+<div class="card shadow">
+    <div class="card-body">
+        <h2 class="card-title">Страница DATA 📊</h2>
+        <p class="card-text">
+            Здесь может быть отображение данных, таблицы или статистика.
+        </p>
+
+        <a href="{% url 'home' %}" class="btn btn-secondary mt-3">
+            ← Назад на главную
+        </a>
+    </div>
+</div>
+{% endblock %}

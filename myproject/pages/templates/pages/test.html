@@ -1,0 +1,18 @@
+{% extends 'pages/base.html' %}
+
+{% block title %}TEST{% endblock %}
+
+{% block content %}
+<div class="card shadow">
+    <div class="card-body">
+        <h2 class="card-title">Страница TEST 🧪</h2>
+        <p class="card-text">
+            Эта страница используется для тестирования функционала.
+        </p>
+
+        <a href="{% url 'home' %}" class="btn btn-secondary mt-3">
+            ← Назад на главную
+        </a>
+    </div>
+</div>
+{% endblock %}
